@@ -1,0 +1,113 @@
+#main-logo {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+.main-title {
+  margin-left: 0.5rem;
+  padding-bottom: 2px;
+}
+
+.nav-links {
+  font-size: 1.1rem;
+  padding-right: 4%;
+  padding-bottom: 1px;
+}
+
+#nav-items:hover {
+  background-color: #0960bd;
+}
+
+.login-area {
+  background-image: url("https://www.commercialcafe.com/blog/wp-content/uploads/sites/10/online-conferences-featured.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 100%;
+  color: white;
+  padding: 5% 10%;
+  box-sizing: inherit;
+}
+
+.login-div {
+  background: linear-gradient(45deg, #005792 50%, #00204a 50%);
+  background-color: black;
+  padding: 2rem;
+  opacity: 90%;
+}
+
+.greeting-login {
+  background-color: #00204a;
+  height: 600px;
+  z-index: 1;
+  position: relative;
+  left: 160px;
+  /* border-top-right-radius: 8rem;
+  border-bottom-right-radius: 8rem; */
+  width: 400px;
+  box-shadow: 15px 15px 20px black;
+}
+
+#greeting-title{
+  margin: 5% 10% 0;
+  font-weight: lighter;
+}
+
+.greeting-subtext{
+  margin: 2% 10%;
+}
+
+.form-area {
+  padding: 4% 0;
+  color: white;
+}
+
+.login-form-content{
+  padding: 13% 20% 25% 30%;
+  margin-left: 10%;
+}
+
+.signup-form-content{
+  padding: 8% 20% 25% 30%;
+  margin-left: 10%;
+}
+
+.form {
+  background: linear-gradient(45deg,#0960bd 20%, #00204a 80%);
+  height: 500px;
+  width: 700px;
+  opacity: 100%;
+  z-index: 0s;
+  position: absolute;
+  right: 250px;
+}
+
+.new_member{
+  color: white;
+  /* margin-top: 1rem; */
+}
+
+.new_member:hover{
+  color: black;
+}
+
+.social-links{
+  color: white;
+}
+
+
+
+
+/* Recent Blogs */
+
+.heading-blogs{
+  background-image: url("https://www.jotform.com/blog/wp-content/uploads/2019/11/photography-1280x500.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  padding: 10%;
+  box-sizing: inherit;
+}
