@@ -1,0 +1,55 @@
+<%- include("partial/header.ejs"); -%>
+
+<div class="login-area">
+  <!-- <div class="login-div"> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 greeting-login">
+        <img src="Images/new_logo.png" height="200px" width="200px" style="margin: 4rem 0 0 5rem ">
+        <h1 id="greeting-title">Hello There</h1>
+        <h4 class="greeting-subtext">Welcome to BlogHouse</h4>
+        <form action="mailto:tshukla2001@gmail.com">
+          <button class="btn btn-outline-primary btn-md" type="submit" style="margin: 10%">Mail Us</button>
+        </form>
+      </div>
+      <div class="col-sm-7 form-area">
+        <div class="form">
+
+
+          <form action="/login" class="login-form-content" method="post">
+            <h1 style="margin-bottom: 3rem">LOGIN</h1>
+            <div class="mb-3">
+              <input type="email" class="form-control" name="user_email" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" name="user_password" placeholder="Password" required>
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-outline-light btn-md" type="submit" style="margin: 9% 0">LOGIN</button>
+              <div style="margin: 0"><a href="/signup" class="new_member">New Member?</a></div>
+            </div>
+          </form>
+        </div>
+          <!-- <form class="ui form login-form-content" action="/login" method="post">
+            <h1 style="margin-bottom: 3rem">LOGIN</h1>
+            <div class="field" style="margin-bottom: 2rem">
+              <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="field">
+              <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="button">
+              <div class="row">
+                <button class="btn btn-outline-light btn-md" type="submit" style="margin: 9% 5%">LOGIN</button>
+                <div style="margin: 10.5% 10%"><a href="/signup" class="new_member">New Member?</a></div>
+              </div>
+            </div>
+
+          </form> -->
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+</div>
+
+<%- include("partial/footer.ejs"); -%>
